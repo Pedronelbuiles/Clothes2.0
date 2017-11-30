@@ -1,0 +1,67 @@
+.menu{
+	margin-top: 30px;
+}
+
+.categoriaSeleccionada{
+	margin-top: 75px;
+}
+
+.productosSeleccionados{
+	margin-top: 40px;
+}
+
+.productosSeleccionados .row{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.card img{
+	margin: auto;
+}
+
+.payubtn{
+	display: inline-flex !important;
+	text-align: center !important;
+}
+
+.paginacion{
+	margin-bottom: 40px;
+}
+
+.paginacion ul{
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.paginacion .colum{
+	text-align: center;
+}
+
+.paginacion ul li{
+	display: inline-block;
+	padding: 10px 10px;
+	font-size: 20px;	
+}
+
+.paginacion ul li a{
+	color: #333;
+}
+.paginacion ul li a:hover{
+	font-size: 22px;
+	transition: .4s;
+}
+.activado{
+	color: #777575 !important;
+	
+}
+.activado:hover{
+	color: #777575;
+}
+
+.MsgConst{
+	font-size: 2rem;
+}
+section .MsgConst{
+	text-align: center;
+	margin-bottom: 150px;
+}

@@ -1,0 +1,526 @@
+.logoClothes{
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+
+.Clothes20{
+	position: relative;
+	top: -25px;
+	margin-bottom: 10px;
+}
+
+.bienvenidos{
+	color: #fff;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.bienvenidos p{
+	margin-top: 11px;
+	margin-bottom: 0px;
+}
+
+#cebecera{
+	font-family: 'Orbitron', sans-serif;
+}
+
+.rrss{
+	background: #333;
+	border-radius: 10px;
+}
+
+.rrss ul{
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.rrss ul li{
+	display: inline-block;
+	padding: 10px 10px;
+	font-size: 20px;	
+}
+
+.rrss ul li a{
+	color: #fff;
+}
+.rrss ul li a:hover{
+	font-size: 22px;
+	transition: .4s;
+}
+
+.categorias{
+	padding-right: 60px !important;
+}
+
+.categorias #btnCategorias{
+	color: #fff;
+	cursor: pointer;
+	float: right;
+}
+
+.categorias #btnCategorias p{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+#categoriasCuerpo{
+	font-family: 'Coming Soon', cursive;
+}
+
+#categoriasCuerpo a:hover{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+#categoriasCuerpo h4{
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+#categoriasCuerpo .subCategoria{
+	display: inline-grid;
+	padding: 0 20px;
+}
+
+.subCategoria h4{
+	margin-top: 10px;
+}
+
+.backColor{
+	background: #333;
+}
+
+.backColor ul{
+	list-style: none;
+}
+
+.backColor ul li{
+	
+}
+
+.backColor a{
+	color: #fff;
+}
+
+#categoriasCuerpo{
+	display: none;
+	border-radius: 0 0 10px 10px;
+}
+
+/* Estilos del slide */
+
+/*Slide*/
+
+#slide{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+}
+
+#slide ul{
+	position: relative;
+	left: 0%;
+	margin: auto;
+	height: auto;
+	width: 400%;
+	clear: both;
+	display: table;
+	list-style: none;
+	padding-left: 0;
+}
+
+#slide ul li{
+	position: relative;
+	float: left;
+	width: 25%;
+}
+
+#slide ul li img{
+	width: 100%;
+}
+
+#slide .slideOpcion1 img{
+	position: absolute;
+	opacity: 1;
+}
+
+#slide .slideOpcion1 .textosSlide{
+	position: absolute;
+}
+
+#slide .slideOpciones h1{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	opacity: 1;
+	top:-10%;
+	color: #333;
+}
+
+#slide .slideOpcion2 img{
+	position: absolute;
+	opacity: 1;
+}
+
+#slide .slideOpcion2 .textosSlide{
+	position: absolute;
+	text-align: right;
+}	
+
+#slide .slideOpciones h2{
+	text-transform: uppercase;
+	font-size: 35px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	opacity: 1;
+	top:-10%;
+	color: #777;
+}
+
+#slide .slideOpciones h3{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	opacity: 1;
+	top:-10%;
+	color: #888;
+}
+
+#slide .slideOpcion1 button{
+	border: 0px;
+	margin-top: 10px;
+	padding: 10px;
+	opacity: 1;
+	top: -10px;
+	color: white;
+	cursor: pointer;
+}
+
+.backColorbtn{
+	background: #333;
+	color: white;
+	cursor: pointer;
+}
+
+.backColorbtn:hover{
+	background: #595656 !important;
+}
+
+#slide .slideOpcion1 button:hover{
+	background: #595656 !important;
+	color: white !important;
+	border:0px;
+}
+
+#slide .slideOpciones button span{
+	margin-left: 10px;
+}
+
+/* Flechas*/
+
+#slide .flechas{
+	position: absolute;
+	font-size: 2em;
+	color: white;
+	cursor: pointer;
+	z-index: 2;
+}
+
+#slide #retroceder{
+	background: #666;
+	padding: 40px 15px 40px 10px;
+	top: 37%;
+	left:0;
+	font-size: 22px;
+	opacity: 1;
+	border-radius: 0 5px 5px 0;
+}
+
+#slide #avanzar{
+	background: #666;
+	padding: 40px 10px 40px 15px;
+	top: 37%;
+	right:0;
+	font-size: 22px;
+	opacity: 1;
+	border-radius: 5px 0 0 5px;
+}
+
+#slide #retroceder:hover, #slide #avanzar:hover{
+	background: #777;
+}
+
+#slide #retroceder:active, #slide #avanzar:active{
+	background: #444;
+}
+
+/* Páginación */
+
+#slide #paginacion{
+	position: absolute;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	line-height: 40px;
+	font-size: 12px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1;
+	background: rgba(0,0,0,.05);
+}
+
+#slide #paginacion li{
+	display: inline-block;
+	margin: 0px 5px;
+	cursor: pointer;
+	opacity: .5;
+	color: white;
+	text-shadow: 0px 0px 5px #333;
+}
+
+#slide #paginacion li:first-child{
+	opacity: 1;
+}
+
+/* Seccion de lo más destacado*/
+
+#destacado{
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+#destacado h4, .antesF h4{
+	font-size: 2rem;
+}
+
+.card{
+	overflow: hidden;
+}
+
+.card-block{
+	text-align: center;
+}
+
+.btnCompra{
+	cursor: pointer;
+	float: right;
+}
+
+.imgProductos{
+	width: 300px;
+}
+
+.card-footer .text-muted{
+	position: relative;
+	top: 8px;
+	font-size: 90%;
+}
+
+.fontTitulos{
+	font-family: 'Coming Soon', cursive;
+}
+
+.fontPrecios{
+	font-family: 'Orbitron', sans-serif;
+}
+
+#destacado .cajaTitulo h4{
+	background: #333;
+	border-radius: 10px;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.rrss2{
+	position: relative;
+	top: -25px;
+	background: #333;
+	padding-right: 30px;
+	border-radius: 10px;
+}
+
+.rrss2 li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.rrss2 li a{
+	font-size: 2rem;
+	text-decoration: none;
+	color: white;
+}
+
+.rrss2 li a:hover{
+	font-size: 2.1rem;
+	transition: .2s;
+}
+
+/* footer */
+
+footer{
+	background: #333;
+}
+
+.aviso{
+	margin-bottom: 20px;
+}
+
+footer h6{
+	font-family: 'Coming Soon', cursive;
+	color: white;
+	margin-top: 30px;
+	font-size: 1.5rem;
+}
+
+footer h6 a{
+	color: lightgray;
+	transition: .2s;
+}
+
+footer h6 a:hover{
+	color: #ffc;
+	text-decoration:none;
+}
+
+.colImg{
+	background: #fff;
+	border-radius: 10px;
+	text-align: center;
+	padding-right: 0px !important;
+}
+
+.logoFooter{
+	width: 60%;
+}
+
+.categoriasFooter li{
+	display: inline-block;
+	list-style: none;
+}
+
+.categoriasFooter li a{
+	color: lightgray;
+	transition: .2s;
+	font-family: 'Coming Soon', cursive;
+}
+
+.categoriasFooter li a:hover{
+	text-decoration: none;
+	color: #ffc;
+}
+
+.infoFooter{
+	text-align: center;
+}
+
+.infoFooter h5{
+	color: lightgray;
+}
+
+.rrss3 li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.rrss3 li a{
+	font-size: 2rem;
+	text-decoration: none;
+	color: white;
+}
+
+.rrss3 li a:hover{
+	font-size: 2.1rem;
+	transition: .2s;
+}
+
+.infoFooter h5, .categoriasFooter{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Medidas de las resoluciones */
+
+/* Escritorio grande (lg se revisa en 1366px)*/
+@media(min-width: 1200px){
+	.colImg{
+		padding-left: 60px !important;
+	}
+}
+
+/* Escritorio mediano tablet horizontal (md se revisa en 1024px) */
+@media(max-width: 1199px) and (min-width: 992px){
+	.card-footer{
+		display: block;
+		text-align: center;
+	}
+	.btnCompra{
+		float: none;
+		margin-top: 10px;
+	}
+	.colImg{
+		padding-left: 30px !important;
+	}
+}
+
+/* Escritorio pequeño o tabler vertical (sm revisamos en 768px) */
+@media(max-width: 991px) and (min-width: 768px){
+	.imgProductos{
+		width: 200px;
+	}
+	.card-footer{
+		display: block;
+		text-align: center;
+	}
+	.btnCompra{
+		float: none;
+		margin-top: 10px;
+	}
+	footer h6{
+		font-size: 1.1rem;
+	}
+}
+
+/* Movil (xs revisamos en 320px) */
+@media(max-width: 767px){
+	.rrss{
+		text-align: center;
+	}
+	.rrss ul{
+		padding-left: 0;
+	}
+	.categorias #btnCategorias{
+		float: none;
+		padding-left: 43px;
+	}
+	#destacado h4{
+		font-size: 1.5rem;
+	}
+	.imgProductos{
+		margin: auto;
+	}
+	.antesF h4{
+		font-size: 1.4rem;
+	}
+	.card-footer small, .card-footer form{
+		padding: 10px 0;
+	}
+	.card-footer form input{
+		margin-left: 32%;
+	}
+	footer h6{
+		font-size: 0.9rem;
+	}
+	.colImg{
+		padding-left: 45px !important;
+	}
+	.colImg .row{
+		margin-right: 0px;
+	}
+}
+
+@media(max-width: 506px){
+	.card-footer form input{
+		margin-left: 25%;
+	}
+}

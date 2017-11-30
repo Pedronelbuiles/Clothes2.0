@@ -1,0 +1,16 @@
+Lista de pendientes para la página:
+
+Listos:
+
+	1: Poner los link de redes sociales de los botones del menu. ¡LISTO!
+	2: Cambiar los menus de todas las páginas para tener los menus definitivos ¡LISTO!
+	3: Poner los link de redes sociales de los botones de la seccion antes del footer. ¡LISTO! 
+	4: Poner las categorias con sus respectivos links en la parte del footer. ¡LISTO! 
+	5: Poner los link de redes sociales de los botones del footer. ¡LISTO! 
+	6: Cambiar los footer de todas las páginas para tener los footers definitivos.  ¡LISTO! 
+
+
+Pendientes:
+
+	7: Poner las imagenes de los slides
+	8: Terminar las páginas individuales de todos los productos, con su respectivo boton de pago de payu.
